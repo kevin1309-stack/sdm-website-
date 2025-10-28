@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SDM EcoCare | Professional Bin Cleaning</title>
+  <meta name="description" content="Eco-friendly bin cleaning: eliminate odors, bacteria & pests. Book SDM EcoCare in Gauteng."/>
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB...">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .logo-img { height: 48px; width: auto; }
+    .hero {
+      background-image: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url('https://images.unsplash.com/photo-1528323273322-d81458248d40?q=80&w=1600&auto=format&fit=crop');
+      background-size: cover; background-position: center;
+    }
+    .fade-up { opacity:0; transform: translateY(18px); transition: all .7s ease; }
+    .fade-up.show { opacity:1; transform: none; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAV -->
+  <nav class="bg-white shadow-md fixed w-full z-30">
+    <div class="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img class="logo-img" alt="SDM EcoCare Logo"
+             src="https://huggingface.co/spaces/Kevin130903/binblast-clean-crusaders/resolve/main/images/IMG_2046.png"/>
+        <span class="text-xl md:text-2xl font-bold"><span class="text-black">SDM</span> <span class="text-[#4CAF50]">EcoCare</span></span>
+      </a>
+      <div class="hidden md:flex items-center space-x-8 font-medium">
+        <a href="#services" class="hover:text-[#4CAF50]">Services</a>
+        <a href="#process" class="hover:text-[#4CAF50]">Process</a>
+        <a href="#video" class="hover:text-[#4CAF50]">Video</a>
+        <a href="#game" class="hover:text-[#4CAF50]">Game</a>
+        <a href="#contact" class="hover:text-[#4CAF50]">Contact</a>
+        <a href="index.html" class="text-[#4CAF50] font-semibold">Other Services</a>
+      </div>
+      <button id="mobileBtn" class="md:hidden" aria-label="Open Menu"><i data-feather="menu"></i></button>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+      <a href="#services" class="block px-5 py-3 hover:bg-gray-50">Services</a>
+      <a href="#process" class="block px-5 py-3 hover:bg-gray-50">Process</a>
+      <a href="#video" class="block px-5 py-3 hover:bg-gray-50">Video</a>
+      <a href="#game" class="block px-5 py-3 hover:bg-gray-50">Game</a>
+      <a href="#contact" class="block px-5 py-3 hover:bg-gray-50">Contact</a>
+      <a href="index.html" class="block px-5 py-3 text-[#4CAF50] font-semibold">Other Services</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero text-white pt-32 pb-24 text-center">
+    <div class="max-w-5xl mx-auto px-5">
+      <h1 class="text-4xl md:text-6xl font-extrabold">Professional Bin Cleaning</h1>
+      <p class="text-lg md:text-2xl mt-3 opacity-95">Eco-friendly cleaning — fast, hygienic & odor-free.</p>
+      <div class="mt-8 flex flex-col md:flex-row justify-center gap-4">
+        <a href="#contact" class="bg-[#4CAF50] hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full">Get a Quote</a>
+        <a href="https://wa.me/27676664955?text=Hi%2C%20I%E2%80%99m%20interested%20in%20a%20bin%20cleaning%20quote."
+           class="bg-white/95 hover:bg-white text-[#2e7d32] font-semibold py-3 px-8 rounded-full">WhatsApp Us</a>
+        <a href="tel:0827266170" class="bg-white/95 hover:bg-white text-[#2e7d32] font-semibold py-3 px-8 rounded-full">Call 082&nbsp;726&nbsp;6170</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-16 bg-white fade-up">
+    <div class="max-w-6xl mx-auto px-5">
+      <h2 class="text-3xl font-bold text-center mb-3">Our Bin Cleaning Services</h2>
+      <p class="text-gray-600 text-center max-w-2xl mx-auto mb-10">Residential & commercial bins — weekly, bi-weekly or monthly plans.</p>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg border-t-4 border-[#4CAF50]">
+          <img class="rounded mb-4" src="https://huggingface.co/spaces/Kevin130903/binblast-clean-crusaders/resolve/main/images/IMG_2134.png" alt="Dirty bin before cleaning">
+          <h3 class="text-xl font-bold mb-2">Regular Cleaning</h3>
+          <p class="text-gray-600">Plans to prevent smells, pests & bacteria.</p>
+        </div>
+
+        <div class="p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg border-t-4 border-[#4CAF50]">
+          <img class="rounded mb-4" src="https://huggingface.co/spaces/Kevin130903/binblast-clean-crusaders/resolve/main/images/IMG_2142.png" alt="Dirty bin before cleaning 2">
+          <h3 class="text-xl font-bold mb-2">Deep Sanitization</h3>
+          <p class="text-gray-600">High-pressure wash + eco disinfectant (kills 99.9% bacteria).</p>
+        </div>
+
+        <div class="p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg border-t-4 border-[#4CAF50]">
+          <img class="rounded mb-4" src="https://huggingface.co/spaces/Kevin130903/binblast-clean-crusaders/resolve/main/images/IMG_2135.png" alt="Clean bin after service">
+          <h3 class="text-xl font-bold mb-2">Residential & Commercial</h3>
+          <p class="text-gray-600">Tailored plans for complexes, restaurants & more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS (replaces the old weak section) -->
+  <section id="process" class="py-16 bg-gray-50 fade-up">
+    <div class="max-w-6xl mx-auto px-5">
+      <h2 class="text-3xl font-bold text-center mb-10">Our Cleaning Process</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-lg border text-center">
+          <div class="text-3xl font-extrabold mb-2">1</div>
+          <h4 class="font-bold mb-2">Inspection</h4>
+          <p class="text-sm text-gray-600">Assess bin condition</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border text-center">
+          <div class="text-3xl font-extrabold mb-2">2</div>
+          <h4 class="font-bold mb-2">Pre-Wash</h4>
+          <p class="text-sm text-gray-600">Remove loose debris</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border text-center">
+          <div class="text-3xl font-extrabold mb-2">3</div>
+          <h4 class="font-bold mb-2">Deep Clean</h4>
+          <p class="text-sm text-gray-600">High-pressure wash</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border text-center">
+          <div class="text-3xl font-extrabold mb-2">4</div>
+          <h4 class="font-bold mb-2">Sanitize</h4>
+          <p class="text-sm text-gray-600">Eco disinfectant</p>
+        </div>
+      </div>
+
+      <div class="mt-12 grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-4 rounded border text-center">
+          <img class="rounded mb-2" src="https://huggingface.co/spaces/Kevin130903/binblast-clean-crusaders/resolve/main/images/IMG_2134.png" alt="Before cleaning">
+          <span class="text-sm text-gray-600 font-medium">Before Cleaning</span>
+        </div>
+        <div class="bg-white p-4 rounded border text-center">
+          <img class="rounded mb-2" src="https://huggingface.co/spaces/Kevin130903/binblast-clean-crusaders/resolve/main/images/IMG_2141.png" alt="After cleaning">
+          <span class="text-sm text-gray-600 font-medium">After Cleaning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="video" class="py-16 bg-white fade-up">
+    <div class="max-w-5xl mx-auto px-5 text-center">
+      <h2 class="text-3xl font-bold mb-6">Watch Our Cleaning in Action</h2>
+      <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-lg shadow">
+        <iframe class="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/T7buH0XPVEw?si=WUYIj_wEiMvFt-vp"
+                title="SDM EcoCare Bin Cleaning"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+      </div>
+      <a href="https://wa.me/27676664955?text=Hi%2C%20I%E2%80%99m%20interested%20in%20booking%20a%20bin%20cleaning%20service%20with%20SDM%20EcoCare."
+         class="mt-6 inline-block bg-[#4CAF50] hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full">Book Now via WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- GAME (kept only here) -->
+  <section id="game" class="py-16 bg-gray-50 fade-up">
+    <div class="max-w-4xl mx-auto px-5 text-center">
+      <h2 class="text-3xl font-bold mb-6">Play Our Bin Cleaning Game</h2>
+      <iframe src="https://huggingface.co/spaces/Kevin130903/binblast-clean-crusaders"
+              class="w-full h-[620px] rounded-lg shadow"></iframe>
+    </div>
+  </section>
+
+  <!-- FAQ (works now) -->
+  <section id="faq" class="py-16 bg-white fade-up">
+    <div class="container mx-auto px-5 max-w-4xl">
+      <h2 class="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+
+      <div class="space-y-3">
+        <div class="border rounded-lg overflow-hidden">
+          <button class="faq-toggle w-full text-left p-4 bg-gray-50 hover:bg-gray-100 font-medium flex justify-between items-center">
+            <span>How often should I clean my bins?</span><i data-feather="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-content hidden p-4 border-t text-gray-600">
+            Monthly for homes. Weekly/bi-weekly for high-use or commercial bins.
+          </div>
+        </div>
+
+        <div class="border rounded-lg overflow-hidden">
+          <button class="faq-toggle w-full text-left p-4 bg-gray-50 hover:bg-gray-100 font-medium flex justify-between items-center">
+            <span>Is your process eco-friendly?</span><i data-feather="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-content hidden p-4 border-t text-gray-600">
+            Yes — biodegradable products, safe for families and pets.
+          </div>
+        </div>
+
+        <div class="border rounded-lg overflow-hidden">
+          <button class="faq-toggle w-full text-left p-4 bg-gray-50 hover:bg-gray-100 font-medium flex justify-between items-center">
+            <span>Do I need to be home?</span><i data-feather="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-content hidden p-4 border-t text-gray-600">
+            No — tell us where the bins are. We’ll send before/after photos.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 bg-white fade-up">
+    <div class="max-w-5xl mx-auto px-5">
+      <h2 class="text-3xl font-bold text-center mb-4">Request a Quote</h2>
+      <p class="text-center text-gray-600 mb-10">We operate after dustbin collection — message us anytime and we’ll confirm a slot.</p>
+
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <form id="binForm" class="space-y-5">
+            <input id="name" type="text" placeholder="Your Name" required class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#4CAF50]">
+            <input id="contactField" type="text" placeholder="Phone or Email" required class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#4CAF50]">
+            <textarea id="message" rows="4" placeholder="No. of bins or special requests..." class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#4CAF50]"></textarea>
+            <button type="submit" class="w-full bg-[#4CAF50] hover:bg-green-600 text-white font-bold py-3 rounded-lg">Send (Email + WhatsApp)</button>
+            <div id="formMsg" class="hidden text-center py-2 rounded-lg"></div>
+          </form>
+        </div>
+
+        <div class="bg-gray-50 p-7 rounded-lg border">
+          <h3 class="text-xl font-bold mb-5">Contact Details</h3>
+          <div class="space-y-4 text-gray-700">
+            <p><strong>Email:</strong> <a class="underline hover:text-[#4CAF50]" href="mailto:sdm.ecocare@outlook.com">sdm.ecocare@outlook.com</a></p>
+            <p><strong>Call:</strong> <a class="underline hover:text-[#4CAF50]" href="tel:0827266170">082 726 6170</a></p>
+            <p><strong>WhatsApp:</strong> <a class="underline hover:text-[#4CAF50]" target="_blank" rel="noopener" href="https://wa.me/27676664955?text=Hi%2C%20I%E2%80%99m%20interested%20in%20a%20bin%20cleaning%20quote.">+27 67 666 4955</a></p>
+
+            <div class="bg-white p-4 rounded-lg border border-green-200">
+              <h4 class="font-bold text-[#4CAF50] mb-2">Business Hours</h4>
+              <ul class="space-y-1 text-sm text-gray-600">
+                <li class="flex justify-between"><span>Monday–Friday</span> <span>8:00 AM – 5:00 PM</span></li>
+                <li class="flex justify-between"><span>Saturday</span> <span>9:00 AM – 1:00 PM</span></li>
+                <li class="flex justify-between"><span>Sunday</span> <span>Closed</span></li>
+              </ul>
+              <p class="text-xs text-gray-500 mt-2">Service delivery is scheduled after dustbin collection.</p>
+            </div>
+
+            <div>
+              <h4 class="font-bold mt-6 mb-2">Follow Us</h4>
+              <div class="flex space-x-3 items-center">
+                <a href="https://www.facebook.com/share/1755AyWa7Q/?mibextid=wwXIfr" target="_blank" class="p-2 bg-gray-200 rounded" aria-label="Facebook"><i data-feather="facebook"></i></a>
+                <a href="https://www.instagram.com/sdm.ecocare?igsh=aWVhYWZwbXV1MWRu&utm_source=qr" target="_blank" class="p-2 bg-gray-200 rounded" aria-label="Instagram"><i data-feather="instagram"></i></a>
+                <a href="https://www.tiktok.com/@sdm.ecocare" target="_blank" class="p-2 bg-gray-200 rounded" aria-label="TikTok">
+                  <svg viewBox="0 0 256 256" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M168,24a64,64,0,0,0,64,64V120A104.12,104.12,0,0,1,176,98.18V160a72,72,0,1,1-72-72,72.86,72.86,0,0,1,8,.45V104a48,48,0,1,0,48,48V24Z"></path>
+                  </svg>
+                </a>
+                <a href="https://wa.me/27676664955" target="_blank" class="p-2 bg-gray-200 rounded" aria-label="WhatsApp"><i data-feather="message-square"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-white py-10">
+    <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="flex items-center mb-3">
+          <img class="logo-img mr-2" alt="SDM EcoCare Logo"
+               src="https://huggingface.co/spaces/Kevin130903/binblast-clean-crusaders/resolve/main/images/IMG_2046.png"/>
+          <span class="text-xl font-bold"><span>SDM</span> <span class="text-[#4CAF50]">EcoCare</span></span>
+        </div>
+        <p class="text-gray-400 text-sm">Eco-friendly bin cleaning proudly serving Gauteng since 2023.</p>
+      </div>
+      <div>
+        <h4 class="font-bold mb-3">Quick Links</h4>
+        <ul class="space-y-2 text-gray-300 text-sm">
+          <li><a href="#process" class="hover:text-white">Cleaning Process</a></li>
+          <li><a href="#contact" class="hover:text-white">Get a Quote</a></li>
+          <li><a href="index.html" class="hover:text-white">Other Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold mb-3">Contact</h4>
+        <p class="text-gray-300 text-sm">📞 082 726 6170</p>
+        <p class="text-gray-300 text-sm">💬 +27 67 666 4955</p>
+        <p class="text-gray-300 text-sm">📧 sdm.ecocare@outlook.com</p>
+      </div>
+    </div>
+    <p class="text-center text-gray-500 text-sm mt-8">© 2025 SDM EcoCare (Pty) Ltd. All rights reserved.</p>
+  </footer>
+
+  <script>
+    feather.replace();
+    document.getElementById('mobileBtn').addEventListener('click',()=>document.getElementById('mobileMenu').classList.toggle('hidden'));
+    const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show');})},{threshold:.18});
+    document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+
+    // FAQ toggles
+    document.querySelectorAll('.faq-toggle').forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        const content=btn.parentElement.querySelector('.faq-content');
+        content.classList.toggle('hidden');
+        const icon=btn.querySelector('.faq-icon');
+        icon && icon.classList.toggle('rotate-180');
+      });
+    });
+
+    // Dual send (Email + WhatsApp)
+    document.getElementById('binForm').addEventListener('submit',function(e){
+      e.preventDefault();
+      const n=document.getElementById('name').value.trim();
+      const c=document.getElementById('contactField').value.trim();
+      const m=document.getElementById('message').value.trim();
+      const mail=`mailto:sdm.ecocare@outlook.com?subject=${encodeURIComponent('Bin Cleaning Quote - SDM EcoCare')}&body=${encodeURIComponent(`Name: ${n}\nContact: ${c}\nMessage: ${m||'—'}`)}`;
+      const wa=`https://wa.me/27676664955?text=${encodeURIComponent(`Hi, I’m interested in a bin cleaning quote.\n\nName: ${n}\nContact: ${c}\nMessage: ${m||'—'}`)}`;
+      window.location.href=mail;
+      window.open(wa,'_blank');
+      const fm=document.getElementById('formMsg');
+      fm.textContent='Opened Email and WhatsApp — send either to complete.';
+      fm.classList.remove('hidden'); fm.classList.add('bg-green-100','text-green-700','mt-2');
+    });
+  </script>
+</body>
+</html>
